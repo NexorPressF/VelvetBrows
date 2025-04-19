@@ -11,6 +11,16 @@
             <Button Name="RemakeBtn" Content="Изменить" Click="RemakeBtn_OnClick"/>
             <Button Name="RemoveBtn" Content="Удалить" Click="RemoveBtn_OnClick"/>
             <TextBox Name="FindTb" TextChanged="FindTb_OnTextChanged"/>
+            <ComboBox Name="FCB" SelectionChanged="FCB_OnSelectionChanged">
+                <ComboBox.Items>
+                    <ComboBoxItem Content="Все"/>
+                    <ComboBoxItem Content="0% - 5%"/>
+                    <ComboBoxItem Content="5% - 15%"/>
+                    <ComboBoxItem Content="15% - 30%"/>
+                    <ComboBoxItem Content="30% - 70%"/>
+                    <ComboBoxItem Content="70% - 100%"/>
+                </ComboBox.Items>
+            </ComboBox>
         </StackPanel>
     </Grid>
 </UserControl>
