@@ -4,6 +4,7 @@
     <option name="projectPerEditor">
       <map>
         <entry key="VelvetBrows/VelvetBrows/App.axaml" value="VelvetBrows/VelvetBrows.Desktop/VelvetBrows.Desktop.csproj" />
+        <entry key="VelvetBrows/VelvetBrows/Views/AddServies.axaml" value="VelvetBrows/VelvetBrows.Desktop/VelvetBrows.Desktop.csproj" />
         <entry key="VelvetBrows/VelvetBrows/Views/AdminView.axaml" value="VelvetBrows/VelvetBrows.Desktop/VelvetBrows.Desktop.csproj" />
         <entry key="VelvetBrows/VelvetBrows/Views/MainView.axaml" value="VelvetBrows/VelvetBrows.Browser/VelvetBrows.Browser.csproj" />
         <entry key="VelvetBrows/VelvetBrows/Views/MainWindow.axaml" value="VelvetBrows/VelvetBrows.Desktop/VelvetBrows.Desktop.csproj" />

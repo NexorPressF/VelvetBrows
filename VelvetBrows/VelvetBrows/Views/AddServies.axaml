@@ -1,0 +1,25 @@
+<UserControl xmlns="https://github.com/avaloniaui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
+             x:Class="VelvetBrows.Views.AddServies">
+    <ScrollViewer>
+        <StackPanel>
+            <Label Content="Id"/>
+            <TextBox IsEnabled="False" IsReadOnly="True" Text="{Binding Id}"/>
+            <Label Content="Название"/>
+            <TextBox Text="{Binding Title}"/>
+            <Label Content="Цена"/>
+            <TextBox Text="{Binding Cost}"/>
+            <Label Content="Длительность"/>
+            <TextBox Text="{Binding DurationInSeconds}"/>
+            <Label Content="Описание"/>
+            <TextBox Text="{Binding Description}"/>
+            <Label Content="Скидка"/>
+            <TextBox Text="{Binding Discount}"/>
+            <Label Content="Изображение"/>
+            <TextBox Text="{Binding MainImagePath}"/>
+        </StackPanel>
+    </ScrollViewer>
+</UserControl>

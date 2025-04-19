@@ -29,6 +29,6 @@ public partial class AdminView : UserControl
 
     private void RemakeBtn_OnClick(object? sender, RoutedEventArgs e)
     {
-
+        
     }
 }

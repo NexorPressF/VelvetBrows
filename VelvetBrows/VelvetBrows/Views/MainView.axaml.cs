@@ -30,7 +30,9 @@ public partial class MainView : UserControl
         }
         else
         {
-            MessageBoxManager.GetMessageBoxStandard("Ошибка", "Неправильный код пользователя");
+            MessageBoxManager.GetMessageBoxStandard("Ошибка", "Неправильный код пользователя").ShowAsync();
+            CodeTb.Text = "";
+            return;
         }
     }
 }
