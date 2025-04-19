@@ -5,7 +5,7 @@
              mc:Ignorable="d" d:DesignWidth="800" d:DesignHeight="450"
              x:Class="VelvetBrows.Views.AddServies">
     <ScrollViewer>
-        <StackPanel>
+        <StackPanel Name="MainSp">
             <Label Content="Id"/>
             <TextBox IsEnabled="False" IsReadOnly="True" Text="{Binding Id}"/>
             <Label Content="Название"/>
@@ -20,6 +20,8 @@
             <TextBox Text="{Binding Discount}"/>
             <Label Content="Изображение"/>
             <TextBox Text="{Binding MainImagePath}"/>
+            <Button Name="CancelBtn" Content="Отменить" Click="CancelBtn_OnClick"/>
+            <Button Name="OkBtn" Content="Ок" Click="OkBtn_OnClick"/>
         </StackPanel>
     </ScrollViewer>
 </UserControl>

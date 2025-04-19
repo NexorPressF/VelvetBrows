@@ -9,6 +9,8 @@
         <StackPanel Orientation="Horizontal" Grid.Row="1">
             <Button Name="AddBtn" Content="Добавить" Click="AddBtn_OnClick"/>
             <Button Name="RemakeBtn" Content="Изменить" Click="RemakeBtn_OnClick"/>
+            <Button Name="RemoveBtn" Content="Удалить" Click="RemoveBtn_OnClick"/>
+            <TextBox Name="FindTb" TextChanged="FindTb_OnTextChanged"/>
         </StackPanel>
     </Grid>
 </UserControl>
